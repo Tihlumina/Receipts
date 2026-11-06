@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0f172a;
+  --muted: #667085;
+  --line: #e6e8ec;
+  --surface: #f7f8fa;
+  --accent: #2f6fed;
+  --hit: #0f7b4f;
+  --miss: #c23b2f;
+}
+
+@theme inline {
+  --font-sans: var(--font-ui), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-receipt), ui-monospace, monospace;
+}
+
+body { background: #fff; color: var(--ink); font-family: var(--font-sans); }
+.font-display { font-family: var(--font-display), Georgia, serif; letter-spacing: -0.02em; }
+.muted { color: var(--muted); }
+.lbl { display: block; margin-bottom: 0.25rem; font-size: 0.75rem; color: var(--muted); }
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px rgba(15, 23, 42, 0.05);
+}
+.input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  padding: 0.55rem 0.75rem;
+  font-size: 0.875rem;
+  outline: none;
+}
+.input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(47, 111, 237, 0.15); }
+.btn {
+  border-radius: 10px;
+  background: var(--ink);
+  color: #fff;
+  padding: 0.55rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.btn:hover:not(:disabled) { background: #1e293b; }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn-ghost {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+}
+.btn-ghost[data-on="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
