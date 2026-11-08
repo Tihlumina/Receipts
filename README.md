@@ -15,11 +15,11 @@ Every call is stored in **Walrus Memory**, checked against real data from **Tatu
 
 **Walrus x Tatum Hackathon: Total Recall** · Track 01: Markets & Sports Prediction
 
-[Live demo](https://YOUR-APP.vercel.app) · [Demo video](https://www.youtube.com/watch?v=VIDEO_ID) · [Blog post](https://YOUR-BLOG-POST-URL)
+[Live demo](https://receipts-two-rho.vercel.app/) · [Demo video](https://youtu.be/0rq948BNKg8?si=CHAwA6xzFSkl9cYh) · [Blog post](https://receipts-blog-9do8.vercel.app)
 
 <br />
 
-[![Watch the Receipts demo on YouTube](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+[![Watch the Receipts demo on YouTube](https://img.youtube.com/vi/0rq948BNKg8/hqdefault.jpg)](https://youtu.be/0rq948BNKg8?si=CHAwA6xzFSkl9cYh)
 
 *Click the thumbnail to watch the 2-minute demo.*
 
@@ -80,21 +80,12 @@ The product gets sharper every time it resolves a call, because the learning liv
 
 | Resource | Link |
 |---|---|
-| Live app | https://YOUR-APP.vercel.app |
-| Demo video (2 min) | https://www.youtube.com/watch?v=VIDEO_ID |
-| Blog post | https://YOUR-BLOG-POST-URL |
-| Source code | https://github.com/YOUR_USERNAME/receipts |
+| Live app | https://receipts-two-rho.vercel.app/ |
+| Demo video (2 min) | https://youtu.be/0rq948BNKg8?si=CHAwA6xzFSkl9cYh |
+| Blog post | https://receipts-blog-9do8.vercel.app |
+| Source code | https://github.com/Tihlumina/receipts |
 | Hackathon | https://tatum.io/hackathon/total-recall |
 
-## Screenshots
-
-| Log a call and print a receipt | Trust score and timeline |
-|---|---|
-| ![Log a call](docs/screenshots/log-call.png) | ![Trust timeline](docs/screenshots/trust-timeline.png) |
-
-| HIT and MISS receipts | Memory on vs memory off |
-|---|---|
-| ![Receipts](docs/screenshots/receipts.png) | ![Consensus](docs/screenshots/consensus.png) |
 
 ## Features
 
@@ -303,7 +294,7 @@ receipts/
 **Prerequisites:** Node.js 20 or newer, a [Tatum](https://dashboard.tatum.io) account, and a [Walrus Memory](https://memory.walrus.xyz) mainnet account with a delegate key.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/receipts.git
+git clone https://github.com/Tihlumina/receipts.git
 cd receipts
 npm install
 ```
@@ -404,6 +395,6 @@ Built for the **Walrus x Tatum Hackathon: Total Recall**. Thanks to the [Walrus 
 
 **Receipts** · Keep the score.
 
-Built by YOUR NAME · [@YOUR_HANDLE](https://x.com/YOUR_HANDLE)
+Built by TIHLUMINA · [@Tihlumina](https://x.com/tihlumina?s=11)
 
 </div>
